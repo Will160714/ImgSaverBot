@@ -83,8 +83,8 @@ driver.execute("send_command", params)
 driver.get("https://www.messenger.com/login")
 driver.maximize_window()
 
-#The 60 seconds sleep time is for a user to login in to their social media account and get to the chat where they want to start saving images
-time.sleep(60)
+#The 40 seconds sleep time is for a user to login in to their social media account and get to the chat where they want to start saving images
+time.sleep(40)
 
 driver.execute_script(
         "var a = confirm('Would you like to start the Image Saver Bot?', '');document.body.setAttribute('data-id', a)")
